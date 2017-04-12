@@ -8,37 +8,24 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
-/*.row-bgimage1{*/
-  /*margin-right: -15px;*/
-  /*margin-left: -15px;*/
-  /*background:url("images/main-hero.jpg") no-repeat center center;*/
-  /*background-color: white;*/
-  /*background-size: cover;*/
-  /*height: 500px;*/
-  /*padding-top:150px;*/
-/*}*/
-
-.row-bgimage2{
-  margin-right: -15px;
-  margin-left: -15px;
-  background:url("images/download-hero.jpg") no-repeat center center;
-  background-size: cover;
-}
-
+/*
 .row{
 border: thin red solid;
 }
 .row-bgimage1{
 border: thin red solid;
-}
+}*/
 /*img,h1,h2,p{*/
 /*border: thin green solid;*/
 /*}*/
 
-.font-color-differnet{
-  font-color: #FFFFFF;
+.font-color-different{
+  color: #FFFFFF;
 }
 
+.word-align{
+  vertical-align: middle;
+}
 
 .navbar-brand {
   font-family: "Passion One";

@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- Connect to our own additional CSS -->
-  <link rel="stylesheet" href="assets/additional_styles.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/additional_styles.css">
 
   <!-- Connect to jQuery (required before Bootstrap Javascript) -->
   <script src="assets/jquery-2.2.2.min.js"></script>
@@ -32,205 +32,361 @@
 </head>
 
 <body>
-  <a href="https://www.google.com" class="navbar-brand">
-    FOODHUB
-  </a>
-  <a href="https://www.google.com">
-    Sign In
-  </a>
-  <a href="https://www.google.com">
-    <i class="fa fa-shopping-bag fa-lg"></i>
-  </a>
 
-  <h2>
-    Who delivers in your neighborhood?
-  </h2>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class = "container-fluid">
+      <div class="navbar-header">
 
-  <form>
-    <div>
-      <label>
-        Enter your address below.
-      </label>
-
-      <div>
-        <i class="fa fa-map-marker"></i>
-
-        <input type="text" placeholder="Street address, city, state">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="https://www.google.com" class="navbar-brand">
+          FOODHUB
+        </a>
       </div>
-    </div>
 
-    <button type="submit">
-      Find Food
-    </button>
-  </form>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-  <h2>
-    How to Foodhub
-  </h2>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://www.google.com">
+              Sign In
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com">
+              <i class="fa fa-shopping-bag fa-lg"></i>
+            </a>
+          </li>
+        </div>
+      </div>
+    </nav>
 
-  <p>
-    Ordering from your favorite restaurant is even easier than eating.
-  </p>
+    <div class="container-fluid">
 
-  <img src="assets/images/map.jpg">
+      <!-- ROW 1 -->
+      <div class="row-bgimage1">
+        <div class="col-sm-1 col-md-offset-3 col-md-6">
+          <h2 class="font-color-different">
+            Who delivers in your neighborhood?
+          </h2>
+          <form>
+            <div>
+              <label class="font-color-different">
+                Enter your address below.
+              </label>
 
-  <h4>
-    The where
-  </h4>
+              <div>
+                <form class="form-inline">
+                  <div class="form-group">
+                    <div class="input-group input-group-md">
 
-  <p>
-    Browse menus from your favorite local restaurants.
-  </p>
+                      <div class="input-group-addon">
+                        <i class="fa fa-map-marker"  style="margin-bottom:0px"></i>
+                      </div>
 
-  <img src="assets/images/menu.jpg">
+                      <input type="text" class="form-control" placeholder="Street address, city, state">
+                    </div>
+                  </div>
 
-  <h4>
-    The what
-  </h4>
+                  <button type="submit" class="btn btn-primary btn-primary btn-block">
+                    Find Food
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <p>
-    Select what you want to eat. Submit your order.
-  </p>
+        <!-- ROW 2 -->
+        <div class="row-bgimage2 new-class">
+          <h2 class="text-center" style="padding-top:20px" >
+            How to Foodhub
+          </h2>
+          <p class="text-center small">
+            Ordering from your favorite restaurant is even easier than eating.
+          </p>
+          <div class="col-md-4">
+            <img src="assets/bootstrap/css/images/map.jpg" class="img-circle img-responsive center-block" alt="Responsive image" width="200px" height="200px">
 
-  <img src="assets/images/delivery.jpg">
+            <h4 class="text-center">
+              The where
+            </h4>
 
-  <h4>
-    The delivery
-  </h4>
-
-  <p>
-    Get the door and enjoy your food!
-  </p>
-
-  <h2>
-    Sound bites
-  </h2>
-
-  <img src="assets/images/user-1.jpg">
-
-  <p>
-    @Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!
-  </p>
-
-  <h4>
-    @xtinacousins
-  </h4>
-
-  <img src="assets/images/user-2.jpg">
-
-  <p>
-    Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.
-  </p>
-
-  <h4>
-    @udezekene
-  </h4>
-
-  <img src="assets/images/user-3.jpg">
-
-  <p>
-    Shout out to Foodhub for making my life so so easy.
-  </p>
-
-  <h4>
-    @adellecharles
-  </h4>
-
-  <img src="assets/images/user-4.jpg">
-
-  <p>
-    Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!
-  </p>
-
-  <h4>
-    @vista
-  </h4>
-
-  <h2>
-    Download apps
-  </h2>
-
-  <p>
-    Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
-  </p>
-
-  <img src="assets/images/app-store-badge.png">
-
-  <img src="assets/images/google-play-badge.png">
-
-  <h2>Why order with Foodhub?</h2>
-
-  <img src="assets/images/gem.jpg">
-  <h4>Discover</h4>
-  <p>
-    We'll help you find hidden gems in your neighborhood.
-  </p>
-
-  <img src="assets/images/like.jpg">
-  <h4>Better</h4>
-  <p>
-    The more you use Foodhub, the better we are at making recommendations just for you.
-  </p>
-
-  <img src="assets/images/bite.jpg">
-  <h4>Food</h4>
-  <p>
-    Enjoy each bite all the more knowing your order supports local businesses.
-  </p>
-
-  <h2>About Foodhub</h2>
-
-  <p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
-
-  <h4>Sign up for special offers</h4>
-
-  <form>
-    <div>
-      <input type="email" placeholder="Email">
-    </div>
-
-    <div>
-      <input type="number" placeholder="ZIP code">
-    </div>
-
-    <button type="submit">Send me treats</button>
-  </form>
-
-  <h4>Get to know us</h4>
-
-  <ul>
-    <li>About Grubhub</li>
-    <li>Our apps</li>
-    <li>Our blog</li>
-    <li>Careers</li>
-    <li>Investor relations</li>
-    <li>News</li>
-  </ul>
+            <p class="text-center">
+              Browse menus from your favorite local restaurants.
+            </p>
+          </div>
 
 
-  <h4>Help</h4>
+          <div class="col-md-4">
+            <img src="assets/bootstrap/css/images/menu.jpg" class="img-circle img-responsive center-block" width="200px" height="200px">
 
-  <ul>
-    <li>FAQ</li>
-    <li>Contact us</li>
-  </ul>
+            <h4 class="text-center">
+              The what
+            </h4>
 
-  <h4>Connect with us</h4>
-
-  <ul>
-    <li>Facebook</li>
-    <li>Twitter</li>
-    <li>Instagram</li>
-    <li>YouTube</li>
-  </ul>
+            <p class="text-center">
+              Select what you want to eat. Submit your order.
+            </p>
+          </div>
 
 
-  <h4>Partner with us</h4>
+          <div class="col-md-4">
+            <img src="assets/bootstrap/css/images/delivery.jpg" class="img-circle img-responsive center-block" width="200px" height="200px">
 
-  <ul>
-    <li>For restaurants</li>
-    <li>For drivers</li>
-    <li>For corporate accounts</li>
-  </ul>
-</body>
-</html>
+            <h4 class="text-center">
+              The delivery
+            </h4>
+
+            <p class="text-center">
+              Get the door and enjoy your food!
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+
+        <!-- ROW 3 -->
+        <div class="row-bgimage3">
+
+          <h2 class="text-center">
+            Sound bites
+          </h2>
+
+          <div class="col-md-3">
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object img-circle" src="assets/bootstrap/css/images/user-1.jpg" alt="Responsive-image" width="50px" height="50px">
+                </a>
+              </div>
+              <div class="media-body">
+                <p>
+                  @Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!
+                </p>
+
+                <h4>
+                  @xtinacousins
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object img-circle" src="assets/bootstrap/css/images/user-2.jpg" alt="Responsive-image" width="50px" height="50px">
+                </a>
+              </div>
+              <div class="media-body">
+                <p>
+                  Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.
+                </p>
+
+                <h4>
+                  @udezekene
+                </h4>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+
+          <div class="col-md-3">
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object img-circle" src="assets/bootstrap/css/images/user-3.jpg" alt="Responsive-image" width="50px" height="50px">
+                </a>
+              </div>
+              <div class="media-body">
+                <p>
+                  Shout out to Foodhub for making my life so so easy.
+                </p>
+
+                <h4>
+                  @adellecharles
+                </h4>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-3">
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object img-circle" src="assets/bootstrap/css/images/user-4.jpg" alt="Responsive-image" width="50px" height="50px">
+                </a>
+              </div>
+              <div class="media-body">
+                <p>
+                  Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!
+                </p>
+
+                <h4>
+                  @vista
+                </h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ROW 4 -->
+        <div class="row-bgimage4">
+          <div class="col-md-offset-3 col-md-6">
+
+            <h2 class="text-center">
+              Download apps
+            </h2>
+
+            <p class="text-center">
+              Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
+            </p>
+
+            <span>
+              <img src="assets/bootstrap/css/images/app-store-badge.png" class="img-responsive" width="200px" height="100px">
+            </span>
+            <span>
+              <img src="assets/bootstrap/css/images/google-play-badge.png" class="img-responsive" width="200px" height="100px">
+            </span>
+          </div>
+        </div>
+
+        <!-- ROW 5 -->
+        <div class="row-bgimage5">
+          <h2 class="text-center">Why order with Foodhub?</h2>
+
+          <div class="col-md-4">
+
+            <img src="assets/bootstrap/css/images/gem.jpg" class="img-circle img-responsive center-block" width="200px" height="200px">
+            <h4 class="text-center">Discover</h4>
+            <p class="text-center">
+              We'll help you find hidden gems in your neighborhood.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <img src="assets/bootstrap/css/images/like.jpg" class="img-circle img-responsive center-block" width="200px" height="200px">
+            <h4 class="text-center">Better</h4>
+            <p class="text-center">
+              The more you use Foodhub, the better we are at making recommendations just for you.
+            </p>
+
+          </div>
+
+          <div class="col-md-4">
+
+            <img src="assets/bootstrap/css/images/bite.jpg" class="img-circle img-responsive center-block" width="200px" height="200px">
+            <h4 class="text-center">Food</h4>
+            <p class="text-center">
+              Enjoy each bite all the more knowing your order supports local businesses.
+            </p>
+
+          </div>
+        </div>
+
+        <!-- ROW 6 -->
+        <div class="row-bgimage6">
+          <div class="col-md-6 word-align">
+            <h2 class="text-center">About Foodhub</h2>
+          </div>
+          <div class="col-md-6">
+            <p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
+          </div>
+        </div>
+
+
+        <!-- ROW 7 -->
+        <div class="row-bgimage7">
+          <div class="col-md-3">
+            <h4>Sign up for special offers</h4>
+
+            <form>
+              <div style="padding-bottom:15px">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+
+              <div style="padding-bottom:15px">
+                <input type="number" class="form-control" placeholder="ZIP code">
+              </div>
+
+              <button type="button" class="btn btn-primary btn-block">Send me treats</button>
+            </form>
+
+          </div>
+          <div class="col-md-3">
+            <h4>Get to know us</h4>
+
+            <ul>
+              <li>About Grubhub</li>
+              <li>Our apps</li>
+              <li>Our blog</li>
+              <li>Careers</li>
+              <li>Investor relations</li>
+              <li>News</li>
+            </ul>
+
+          </div>
+          <div class="col-md-3">
+            <h4>Help</h4>
+
+            <ul>
+              <li>FAQ</li>
+              <li>Contact us</li>
+            </ul>
+
+            <h4>Connect with us</h4>
+
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Partner with us</h4>
+
+            <ul>
+              <li>For restaurants</li>
+              <li>For drivers</li>
+              <li>For corporate accounts</li>
+            </ul>
+
+
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </body>
+    </html>
